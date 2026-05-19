@@ -272,10 +272,4 @@ This project also strengthened practical skills in:
 ## Yash Ghormade
 
 🎓 AIML Engineer
-📊 Aspiring Data Analyst
-💼 Open to Data Analyst Internships & Entry-Level Opportunities
-
-### 🔗 Connect With Me
-
-* GitHub
-* LinkedIn
+* LinkedIn-https://www.linkedin.com/in/yash-ghormade-35b238226/
