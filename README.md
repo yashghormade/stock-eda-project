@@ -1,22 +1,68 @@
-# stock-eda-project
-Financial Stock Trend EDA using Python, yfinance, Pandas, Matplotlib
+Financial Stock Trend EDA
 
-Just completed my first end-to-end Data Analysis Project!
+Table of Content
+Case Study
+Dataset Description
+Data Cleaning
+Data Analysis
+Dashboard
 
-Built a Financial Stock Market EDA Dashboard analyzing 5 major stocks (Reliance, TCS, Infosys, Apple, Microsoft) from 2022–2024 using Python and Power BI!
-📊 What I did:
+Case Study
+Stock market analysis of 5 major companies (Reliance, TCS, Infosys, Apple, Microsoft) using real historical data from 2022–2024, including stock prices, daily returns, volatility, and correlation patterns across Indian and US markets.
 
-→ Automated data extraction — 776 days of live stock data using yfinance
-→ Computed daily returns, volatility & 50/200-day moving averages in Python
-→ Built correlation heatmap — revealed 0.73 correlation between TCS & Infosys
-→ Created interactive Power BI Dashboard with 6 professional visuals
-→ Published complete project on GitHub
+Dataset Description
+Our dataset consists of the following observations:
 
-💡 Key Insights:
-→ MSFT best performer — ~50% cumulative return
-→ TCS & Infosys move together — strong Indian IT sector correlation
-→ Reliance & MSFT nearly independent — ideal for portfolio diversification
+Stock Data (stock_data.csv)
+Date - Trading date
+AAPL - Apple Inc. closing price (USD)
+INFY.NS - Infosys closing price (INR)
+MSFT - Microsoft closing price (USD)
+RELIANCE.NS - Reliance Industries closing price (INR)
+TCS.NS - TCS closing price (INR)
 
-🛠️ Full Tech Stack:
-Python • Pandas • NumPy • yfinance • Matplotlib • Seaborn • Jupyter Notebook • Power BI • GitHub
-<img width="1919" height="992" alt="image" src="https://github.com/user-attachments/assets/aec9cb0a-d27a-49e6-8e08-4eabdb9f5c26" />
+Stock Returns (stock_returns.csv)
+Date - Trading date
+AAPL - Apple daily return
+INFY.NS - Infosys daily return
+MSFT - Microsoft daily return
+RELIANCE.NS - Reliance daily return
+TCS.NS - TCS daily return 
+
+
+Data Cleaning
+Steps to fetch data:
+Used yfinance library to fetch live historical data
+Downloaded 776 days of OHLCV data (2022–2024)
+Handled missing/null values using dropna()
+Exported clean data to CSV for Power BI
+
+Data Analysis
+Return Analysis:
+
+Computed daily percentage returns using pct_change()
+MSFT delivered highest cumulative return (~50%)
+INFY delivered lowest return (~5%)
+
+Volatility Analysis:
+
+Annualized volatility = daily std × √252
+MSFT most volatile at 28.1%
+TCS most stable at 20.7%
+
+Moving Averages:
+
+Computed 50-day and 200-day moving averages
+Used to identify Golden Cross and Death Cross signals
+
+Correlation Analysis:
+
+TCS & Infosys highly correlated (0.73) — Indian IT sector
+AAPL & MSFT correlated (0.69) — US Tech sector
+Reliance & MSFT nearly independent (0.09) — good for diversification
+
+🛠️ Tech Stack: Python | Pandas | NumPy | yfinance | Matplotlib | Seaborn | Power BI | Jupyter Notebook
+
+👨‍💻 Author
+Yash Ghormade
+🔗 GitHub | 💼 Open to Data Analyst
