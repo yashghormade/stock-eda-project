@@ -1,1 +1,18 @@
 Stock_Market_EDA_Dashboard1
+
+stock-eda-project/
+│
+├── data/
+│   ├── stock_data.csv
+│   └── stock_returns.csv
+│
+├── dashboard/
+│   └── stock_dashboard.pbix
+│
+├── notebook/
+│   └── stock_market_eda.ipynb
+│
+├── images/
+│   └── dashboard.png
+│
+└── README.md
