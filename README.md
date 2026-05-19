@@ -273,3 +273,16 @@ This project also strengthened practical skills in:
 
 🎓 AIML Engineer
 * LinkedIn-https://www.linkedin.com/in/yash-ghormade-35b238226/
+
+* <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/83bdeed9-9af3-4f70-9556-bc9fe726743b" />
+
+The project analyzes:
+- Stock Price Trends
+- Daily Returns
+- Volatility
+- Moving Averages
+- Correlation Analysis
+- Portfolio Diversification
+
+
+
