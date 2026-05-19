@@ -19,3 +19,4 @@ Built a Financial Stock Market EDA Dashboard analyzing 5 major stocks (Reliance,
 
 🛠️ Full Tech Stack:
 Python • Pandas • NumPy • yfinance • Matplotlib • Seaborn • Jupyter Notebook • Power BI • GitHub
+<img width="1919" height="992" alt="image" src="https://github.com/user-attachments/assets/aec9cb0a-d27a-49e6-8e08-4eabdb9f5c26" />
